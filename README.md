@@ -1,5 +1,5 @@
 Kafka producers and consumers example:
-Fast and Save
+Fast and Safe
 
 commands:
 ##### docker-compose up -d
