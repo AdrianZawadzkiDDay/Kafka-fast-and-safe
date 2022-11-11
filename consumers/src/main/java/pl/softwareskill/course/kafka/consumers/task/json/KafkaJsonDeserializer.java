@@ -1,4 +1,4 @@
-package pl.softwareskill.course.kafka.consumers.task.safe;
+package pl.softwareskill.course.kafka.consumers.task.json;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;

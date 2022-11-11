@@ -52,7 +52,7 @@ public class SafeProducer {
 
         for (int i = 0; i < 1000; i++) {
             try {
-                // 3. crate a producer records
+                // 3. create a producer records
                 var text = TextFactory.createRandomText();
                 log.info("text: {} eventId: {}", text.getText(), text.getEventId());
                 ProducerRecord<String, Text> record = new ProducerRecord<>(TOPIC_NAME, text.getTextId().toString(), text);

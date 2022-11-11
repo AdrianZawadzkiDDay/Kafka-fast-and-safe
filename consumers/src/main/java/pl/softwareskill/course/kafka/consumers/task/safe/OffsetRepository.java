@@ -3,7 +3,7 @@ package pl.softwareskill.course.kafka.consumers.task.safe;
 import lombok.experimental.FieldDefaults;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.TopicPartition;
-import pl.softwareskill.course.kafka.consumers.task.safe.Text;
+import pl.softwareskill.course.kafka.consumers.task.json.Text;
 
 import java.util.Map;
 import java.util.Optional;

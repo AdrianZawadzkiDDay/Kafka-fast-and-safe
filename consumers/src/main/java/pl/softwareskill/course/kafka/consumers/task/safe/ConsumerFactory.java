@@ -4,6 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
+import pl.softwareskill.course.kafka.consumers.task.json.KafkaJsonDeserializer;
+import pl.softwareskill.course.kafka.consumers.task.json.Text;
 
 
 import java.util.Properties;

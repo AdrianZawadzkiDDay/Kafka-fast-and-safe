@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.errors.WakeupException;
+import pl.softwareskill.course.kafka.consumers.task.json.Text;
 
 import java.time.Duration;
 import java.util.Arrays;

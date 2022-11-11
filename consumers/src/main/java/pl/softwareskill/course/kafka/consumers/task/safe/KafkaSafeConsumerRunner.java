@@ -3,6 +3,7 @@ package pl.softwareskill.course.kafka.consumers.task.safe;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import pl.softwareskill.course.kafka.consumers.task.json.Text;
 
 import static lombok.AccessLevel.PRIVATE;
 
